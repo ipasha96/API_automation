@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-19T15:05:31 WIB" name="Default suite" finished-at="2025-12-19T15:05:49 WIB" duration-ms="17890">
+    <groups>
+    </groups>
+    <test started-at="2025-12-19T15:05:31 WIB" name="Default test" finished-at="2025-12-19T15:05:49 WIB" duration-ms="17890">
+      <class name="test.TestOne">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestOne@28701274]" started-at="2025-12-19T15:05:31 WIB" name="setup" finished-at="2025-12-19T15:05:32 WIB" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetDefaultPersons()[pri:0, instance:test.TestOne@28701274]" started-at="2025-12-19T15:05:32 WIB" name="testGetDefaultPersons" description="Verify that fetching persons returns 10 items by default" finished-at="2025-12-19T15:05:37 WIB" duration-ms="5624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDefaultPersons -->
+        <test-method signature="testLocalization()[pri:0, instance:test.TestOne@28701274]" started-at="2025-12-19T15:05:37 WIB" name="testLocalization" description="Verify localized data for French locale" finished-at="2025-12-19T15:05:39 WIB" duration-ms="1378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLocalization -->
+        <test-method signature="testMaximum()[pri:0, instance:test.TestOne@28701274]" started-at="2025-12-19T15:05:39 WIB" name="testMaximum" description="Verify Maximum Quantity Limit" finished-at="2025-12-19T15:05:44 WIB" duration-ms="5746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaximum -->
+        <test-method signature="testNegative()[pri:0, instance:test.TestOne@28701274]" started-at="2025-12-19T15:05:44 WIB" name="testNegative" description="Negative test for Invalid resource " finished-at="2025-12-19T15:05:46 WIB" duration-ms="1308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegative -->
+        <test-method signature="testSeedConsistency()[pri:0, instance:test.TestOne@28701274]" started-at="2025-12-19T15:05:46 WIB" name="testSeedConsistency" description="Verify that seed parameter have consistent results" finished-at="2025-12-19T15:05:49 WIB" duration-ms="3224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSeedConsistency -->
+      </class> <!-- test.TestOne -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
